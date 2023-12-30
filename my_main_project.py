@@ -16,7 +16,7 @@ async def start_bot(_):
     await db_start()
 
 storage = MemoryStorage()
-bot = Bot('6672891201:AAHPsRU9gyplEpDuifpJ7XIi2hloqWNKdKo')
+bot = Bot('')
 dp = Dispatcher(bot, storage=storage)
 
 
